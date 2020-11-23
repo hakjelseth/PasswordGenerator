@@ -10,7 +10,10 @@ all = uppercase_letters + lowercase_letters + digits + symbols
 #Length of the password
 length = 20
 
-password = "".join(random.sample(all, length))
+#amount of passwords to be generated
+amount = 10
 
-print(password)
+for i in range(amount):
+    password = "".join(random.sample(all, length))
+    print(password)
 
