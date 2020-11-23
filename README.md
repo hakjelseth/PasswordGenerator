@@ -1,3 +1,3 @@
 # PasswordGenerator
 
-Simple program that creates a random password.
+Simple program that creates random passwords.
